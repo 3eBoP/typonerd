@@ -6,4 +6,4 @@ Typoner est un outil typographique développé dans le but d'améliorer la typog
 Il permet de faire de nombreuses modifications de texte à la volée.
 
 Conception : Julien Dubedout
-Développement php :
+Développement php : Guillaume Thomas
