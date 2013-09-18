@@ -1,0 +1,145 @@
+/********************************      Basic Structure      ********************************/
+
+html {
+                font-size: 100%;
+                height: 100%;
+                }
+
+body {
+                font-family: 'Lato', sans-serif;
+                color: #fff;
+				width: 100%;
+				background: url('../images/texture.jpg') repeat #000;
+                }	
+
+p {
+				margin: 0 0 35px 0;
+				}
+				
+h2 {
+				margin: 0 0 20px 0;
+				font-size: 30px;
+				font-weight: lighter;
+				}
+				
+/********************************      General      ********************************/
+
+#wrapper {
+				width: 1180px;
+				position: relative;
+				margin: 70px auto 0 auto;
+				}
+				
+#left-side, #right-side {
+				width: 537px;
+				float: left;
+				font-size: 24px;
+				line-height: 32px;
+				}
+				
+.margin-left-side {
+				margin: 0 106px 0 0;
+				}
+				
+#form-text, #res-text {
+				background: none repeat scroll 0 0 #353535;
+				border: 1px solid #6F6F6F;
+				font-family: 'Lato',sans-serif;
+				font-size: 17px;
+				color: #ccc;
+				line-height: 26px;
+				padding: 60px;
+				min-height: 405px;
+				width: 415px;
+				margin: 0 0 35px;
+				border-radius: 2px 2px 2px 2px;
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+				}
+				
+#input-text {
+				background: transparent;
+				border: none;
+				width: 415px;
+				min-height: 361px;
+				font-family: 'Lato', sans-serif;
+				font-size: 17px;
+				color: #ccc;
+				line-height: 26px;
+				padding: 0;
+				margin: 0;
+				resize: none;
+				}
+				
+#btn-convert {
+				background: url("../images/btn_convert.png") 0 0;
+				border: 0 none;
+				cursor: pointer;
+				width: 220px;
+				height: 221px;
+				margin: 0 0 0 -110px;
+				padding: 0;
+				position: absolute;
+				top: 250px;
+				left: 50%;
+				}
+				
+#btn-convert:hover {
+				background: url("../images/btn_convert.png") 0 221px;
+				}
+				
+#header-form {
+				background: #595959;
+				font-family: 'Lato', sans-serif;
+				font-size: 15px;
+				color: #fff;
+				line-height: 37px;
+				width: 515px;
+				height: 37px;
+				padding: 0 10px;
+				position: relative;
+				top: -60px;
+				left: -60px;
+				border-radius: 2px 2px 0 0;
+				-webkit-border-radius: 2px 2px 0 0;
+				-moz-border-radius: 2px 2px 0 0;
+				}
+				
+.clearfix {
+				display: block;
+				zoom: 1;
+				/* IE, don’t use conditional comments here */
+				}
+				
+.clearfix:after, .clearfix:before {
+				content: "";
+				display: table;
+				}
+				
+.clearfix:after {
+				clear: both;
+				}
+				
+#footer {
+			font-family: 'Lato', sans-serif;
+			font-size: 13px;
+			color: #888;
+			line-height: 20px;
+			margin: 0 0 35px 0;
+			float: left;
+			}
+			
+#footer a {
+			font-family: 'Lato', sans-serif;
+			font-size: 13px;
+			color: #888;
+			text-decoration: underline;
+			}
+			
+.mentions {
+			margin: 0;
+			}
+			
+.mentions.first {
+			margin: 0 0 15px 0;
+			}
