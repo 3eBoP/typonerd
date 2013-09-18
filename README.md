@@ -1,4 +1,4 @@
-Outil typo
+Outil typographique
 ===
 
 Typonerd est un outil typographique développé dans le but d'améliorer la typographie sur internet.
