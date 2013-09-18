@@ -8,3 +8,8 @@ Il permet de faire de nombreuses modifications de texte à la volée.
 Conception : Julien Dubedout
 
 Développement php : Guillaume Thomas
+
+Démo
+===
+
+http://www.roxane-company.com/typonerd/
